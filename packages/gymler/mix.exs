@@ -26,7 +26,7 @@ defmodule Gymler.MixProject do
 
   defp deps do
     [
-      {:poison, "~> 5.0"}
+      {:, "~> 5.0"}
     ]
   end
 end

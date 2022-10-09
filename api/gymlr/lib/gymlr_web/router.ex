@@ -7,5 +7,8 @@ defmodule GymlrWeb.Router do
 
   scope "/api", GymlrWeb do
     pipe_through :api
+    get "/", MainController, :index
+
+    get "/supps", SuppController, :index
   end
 end

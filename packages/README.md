@@ -1,11 +1,11 @@
-## <p align="center">Gymler APi</p>
+## <p align="center">Gymler Packages</p>
 
 [![Discord](https://img.shields.io/discord/823720615965622323.svg?style=for-the-badge)](https://discord.gg/UDNcTrBagN)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/vkxni)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](https://github.com/alelievr/Mixture/blob/master/LICENSE)
 
 <p align="center">
-<img src="static/ron_benchpress.png"  alt="gymlr" width="200" height="200"/></a>
+<img src="package.png"  alt="gymlr-package" width="200" height="200"/></a>
 <p>
 
 <p align="center"> 
@@ -17,14 +17,14 @@ Get healthier, stronger and better ... with Gymler.
 --- 
 
 <p align="center">
-A powerful utility APi Endpoint that returns all sort of health/boost or muscle gainer supplements.
+A collection of packages made for the Gymler APi. 
 
 ---
 
-## Usage 
+## <p align="center">Links</p>
 
-Since this is a web based HTTP server, you have to send `GET` requests to the server. 
+The main - Elixir based package
+- [Gymler Elixir]()
 
-### Endpoints
-
-SOON
+The NodeJS based package
+- [Gymler NodeJS]()
