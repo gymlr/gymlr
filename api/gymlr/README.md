@@ -27,4 +27,37 @@ Since this is a web based HTTP server, you have to send `GET` requests to the se
 
 ### Endpoints
 
-SOON
+`/api/supps/` will return everything (boost, muscles, health) ...
+
+`/api/supps/<>` this will find a specific supplement by name.
+
+- `/api/supps/boost` will return all boost supplements.
+- `/api/supps/muscles` will return all muscle gainer supplements.
+- `/api/supps/health` will return all health supplements.
+
+
+<p align="center">
+<strong>Examples</strong>
+<p>
+
+```
+```
+
+JavaScript/TypeScript
+    
+```js
+const fetch = require('node-fetch');
+
+const res = await fetch('https://gymlr.urlcomingsoon.xd/api/supps/boost');
+const data = await res.json();
+console.log(data);
+```
+
+Python
+```py
+import requests
+
+res = requests.get('https://gymlr.urlcomingsoon.xd/api/supps/boost')
+data = res.json()
+print(data)
+```
