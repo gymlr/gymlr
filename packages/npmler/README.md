@@ -26,5 +26,32 @@ A NPM package that returns health/boost/muscler gainer supplements.
 ```ts
 import { getHealth } from "gymlr";
 
-getHealth().then(console.log);
+function printHealth() {
+    const health = getHealth();
+    console.log(health);
+}
+
+printHealth();
+```
+
+```ts
+import { getBoost } from "gymlr"
+
+function printBoost() {
+    const boost = getBoost();
+    console.log(boost);
+}
+
+printBoost();
+```
+
+```ts
+import { getMuscle } from "gymlr"
+
+function printMuscles() {
+    const boost = getMuscle();
+    console.log(boost);
+}
+
+printMuscles();
 ```
