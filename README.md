@@ -29,3 +29,9 @@ We offer support for almost every platform!
 - [A web based APi](https://github.com/gymlr/gymlr/tree/master/api/gymlr)
 
 
+## Developers Guide
+- `api/gymlr` is our HTTP APi with all Endpoints
+- `packages/gymler` our Elixir wrapper
+- `packages/npmler` our NPM wrapper
+
+We use [Elixir](https://elixir-lang.org/) as our main programming language and [Perl](https://www.perl.org/) for some utility scripts
