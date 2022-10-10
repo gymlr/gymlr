@@ -21,10 +21,11 @@ A powerful utility APi that returns all sort of health/boost or muscle gainer su
 
 ---
 
-## <p align="center">Usage</p>
+## Getting started
 
-We have a web based HTTP server, multiple packages for Elixir and NodeJS and a public website!
+We offer support for almost every platform!
 
-You can basically use the raw APi requests to get the data you need, however, we recommend using our packages. 
+- [HEX/NPM Packages](https://github.com/gymlr/gymlr/tree/master/packages)
+- [A web based APi](https://github.com/gymlr/gymlr/tree/master/api/gymlr)
 
-#### Packages
+
