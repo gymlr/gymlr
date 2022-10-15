@@ -2,7 +2,7 @@ defmodule Gymler do
   @moduledoc """
   This is just a small Mix package that returns some JSON results based on the input.
 
-  - health (vitamines) e.g. omega-3
+  - health (vitamins) e.g. omega-3
   - boost (energy) e.g. creatine
   - muscle (protein) e.g. whey
 
